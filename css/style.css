@@ -35,7 +35,7 @@ h1{
 }
 
 .add-nav{
-    border-bottom: 1px solid rgb(246, 248, 249);
+    border-bottom: 2px solid rgb(246, 248, 249);
     padding: 15px;
     padding-left: 50px;
 }
@@ -112,4 +112,18 @@ li>span{
 
 .sales{
     background-color: rgb(176, 201, 38);
+}
+
+.done{
+    color: green;
+    border: 1px solid green;
+    border-radius: 180px;
+    padding: 4px 6px;
+}
+
+.not-done{
+    color: red;
+    border: 1px solid red;
+    border-radius: 180px;
+    padding: 4px 6px;
 }
